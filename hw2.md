@@ -8,30 +8,31 @@
   
 	What does each row mean? a record (discrete item that make up the whole or a part of an order).
 
-	```git bash
+	```
 	head chipotle.tsv
 	tail chipotle.tsv
 	grep -i 'chicken bowl' chipotle.tsv | head 
-	 ```
+	```
 
 	ii. 1834 orders
-	```git bash
+	```
 	tail chipotle.tsv
 	```
 	iii. 4623 lines
-	```git bash
+	```
 	wc -l chipotle.tsv
 	```
 	iv. chicken burritos were ordered 553 times vs. steak burrito = 368 times
-	```git bash
+	```
 	grep -i 'steak burrito' chipotle.csv | wc -l
 	grep -i 'chicken burrito' chipotle.csv | wc -l 
+	```
 2. find files
 	
 	./data/airlines.csv
 	./data/chipotle.tsv
 	./data/sms.tsv
-	```git bash
+	```
 	find . -name *.?sv
 	```
 3. count the number of occurances of 'dictionary' (case insensitive)
@@ -39,3 +40,4 @@
 	```
 	grep -ri 'dictionary' . 	
 	##what command do I use to count the number of 'dictionary'?
+	```
