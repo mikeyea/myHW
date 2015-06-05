@@ -38,6 +38,6 @@
 3. count the number of occurances of 'dictionary' (case insensitive)
 	couldn't get this
 	```
-	grep -ri 'dictionary' . 	
-	##what command do I use to count the number of 'dictionary'?
+	grep -ri 'dictionary' . >> ~desktop/myHW/dictionary.txt	
+	##what command do I use to count the number of instances of 'dictionary'?
 	```
