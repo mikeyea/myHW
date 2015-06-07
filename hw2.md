@@ -36,8 +36,8 @@
 	find . -name *.?sv
 	```
 3. count the number of occurances of 'dictionary' (case insensitive)
-	couldn't get this
+	15. The command below assume one "dictionary" per line.
 	```
 	grep -ri 'dictionary' . >> ~desktop/myHW/dictionary.txt	
-	##what command do I use to count the number of instances of 'dictionary'?
+	| wc -l
 	```
