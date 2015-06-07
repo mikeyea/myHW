@@ -24,9 +24,13 @@
 	```
 	iv. chicken burritos were ordered 553 times vs. steak burrito = 368 times
 	```
-	grep -i 'steak burrito' chipotle.csv | wc -l
-	grep -i 'chicken burrito' chipotle.csv | wc -l 
+	grep -i 'steak burrito' chipotle.tsv | wc -l
+	grep -i 'chicken burrito' chipotle.tsv | wc -l 
 	```
+	v. black beans are more popular (1345 vs. 582)
+	```
+	grep -i 'black beans' chipotle.tsv | wc -l
+	grep -i 'pinto beans' chipotle.tsv | wc -l
 2. find files
 	
 	./data/airlines.csv
