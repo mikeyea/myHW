@@ -31,6 +31,7 @@
 	```
 	grep -i 'black beans' chipotle.tsv | wc -l
 	grep -i 'pinto beans' chipotle.tsv | wc -l
+	```
 2. find files
 	
 	./data/airlines.csv
