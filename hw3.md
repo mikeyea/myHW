@@ -1,6 +1,6 @@
 ##Homework 3##
 
-```
+```python
 #1. Read chipotle data and store it in a list of lists
 import csv
 with open('chipotle.tsv', 'rU') as f:
