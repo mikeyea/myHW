@@ -1,4 +1,5 @@
 ##Homework 3##
+
 ```
 #1. Read chipotle data and store it in a list of lists
 import csv
@@ -72,4 +73,5 @@ print {c:sum(q) for c,q in d.items()}
 #'Chips and Tomatillo Red Chili Salsa': 50, 
 #'Chips and Roasted Chili Corn Salsa': 23, 'Chips': 230, 
 #'Chips and Tomatillo Green Chili Salsa': 45}
+
 ```
